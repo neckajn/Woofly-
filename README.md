@@ -1,4 +1,4 @@
-Woofly - AI Powered Mood Tracker for Dogs
+# Woofly - AI Powered Mood Tracker for Dogs
 
 Woofly is a mobile application that helps dog owners know and understand their pet's mood 
 and activity using AI-powered image analysis. By simply taking a picture of their dog, users 
