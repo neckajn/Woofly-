@@ -6,5 +6,5 @@ receive feedback on the likely mood (e.g., happy, anxious, sleepy) and suggested
 to improve their pet’s well-being/mood.
 
 machine learning tools & libraries used:
-TensorFlow Lite
+TensorFlow Lite,
 Teachable Machine (by Google Creative Lab)
