@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageButton infoBtn = findViewById(R.id.infobtn);
+        infoBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+            startActivity(intent);
+        });
+
+
         ImageButton btnHistory = findViewById(R.id.hisbtn);
         btnHistory.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MoodLogActivity.class);
